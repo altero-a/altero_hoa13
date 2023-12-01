@@ -1,0 +1,5 @@
+- name: install message queue
+  apt:
+    name: rabbitmq-server
+    state: present
+    update_cache: yes
